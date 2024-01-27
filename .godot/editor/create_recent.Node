@@ -1,14 +1,28 @@
 CollisionShape2D
+<<<<<<< HEAD
 Sprite2D
 StaticBody2D
 CollisionPolygon2D
 CharacterBody2D
 AnimatedSprite2D
+=======
+>>>>>>> c76690194df6b81a4cb0fa7b73b7eade45692e56
 Area2D
 TileMap
 Node2D
 Node
+<<<<<<< HEAD
+=======
+Sprite2D
+>>>>>>> c76690194df6b81a4cb0fa7b73b7eade45692e56
 AnimationPlayer
 State
 PointLight2D
 Label
+<<<<<<< HEAD
+=======
+Control
+CanvasLayer
+AudioStreamPlayer
+GPUParticles2D
+>>>>>>> c76690194df6b81a4cb0fa7b73b7eade45692e56
