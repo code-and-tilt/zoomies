@@ -1,0 +1,37 @@
+[gd_scene load_steps=5 format=3 uid="uid://uhk54gw6vqmk"]
+
+[ext_resource type="Texture2D" uid="uid://danm67km5elc5" path="res://Art/Furniture Pack/Top View Assets/GrandFatherClock1_TopFront.PNG" id="1_mwep6"]
+[ext_resource type="Texture2D" uid="uid://cn50repos6n4o" path="res://Art/Furniture Pack/Top View Assets/Chair1_TopSide.PNG" id="1_o7aix"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pjmkl"]
+size = Vector2(298, 191)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qyhjj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_o7aix")
+}],
+"loop": true,
+"name": &"chair",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_mwep6")
+}],
+"loop": true,
+"name": &"clock",
+"speed": 5.0
+}]
+
+[node name="Knockables" type="Area2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-4, 165.5)
+shape = SubResource("RectangleShape2D_pjmkl")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-6, -62)
+sprite_frames = SubResource("SpriteFrames_qyhjj")
+animation = &"clock"
