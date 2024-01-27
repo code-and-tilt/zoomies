@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 res://Scenes/house.tscn
 res://Art/Fonts/pixelized_label.tres
 res://Scenes/Levels/TileMap.tres
 res://Scenes/knockables.tscn
-=======
-res://house.tscn
->>>>>>> c76690194df6b81a4cb0fa7b73b7eade45692e56
+res://Scenes/Levels/MainFloor.tscn
