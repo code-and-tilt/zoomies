@@ -10,10 +10,10 @@ config_version=5
 
 [application]
 
-config/name="Topdown Starter"
+config/name="Zoomies"
 run/main_scene="res://Scenes/house.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
-boot_splash/image="res://Art/Icons/icon.png"
+boot_splash/image="res://chompy.png"
 boot_splash/use_filter=false
 config/icon="res://Art/Icons/icon.png"
 
