@@ -1,0 +1,153 @@
+[gd_scene load_steps=15 format=3 uid="uid://bk0kjp2067thg"]
+
+[ext_resource type="Texture2D" uid="uid://bhisqsiejm4b4" path="res://Art/PI Office ASSET/furniture update.png" id="1_basee"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nhvar"]
+atlas = ExtResource("1_basee")
+region = Rect2(479, 264, 17, 21)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8y6s0"]
+atlas = ExtResource("1_basee")
+region = Rect2(530, 240, 12, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cvary"]
+atlas = ExtResource("1_basee")
+region = Rect2(530, 206, 12, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cr7ti"]
+atlas = ExtResource("1_basee")
+region = Rect2(578, 224, 12, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qeigl"]
+atlas = ExtResource("1_basee")
+region = Rect2(549, 259, 9, 9)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_exn7d"]
+atlas = ExtResource("1_basee")
+region = Rect2(531, 259, 9, 9)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ydvu0"]
+atlas = ExtResource("1_basee")
+region = Rect2(591, 163, 17, 60)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q1gcx"]
+atlas = ExtResource("1_basee")
+region = Rect2(514, 191, 12, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bo7o0"]
+atlas = ExtResource("1_basee")
+region = Rect2(452, 112, 25, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h0cyr"]
+atlas = ExtResource("1_basee")
+region = Rect2(517, 261, 6, 6)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2wtql"]
+atlas = ExtResource("1_basee")
+region = Rect2(416, 160, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sh17j"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nhvar")
+}],
+"loop": true,
+"name": &"bin",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8y6s0")
+}],
+"loop": true,
+"name": &"book1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cvary")
+}],
+"loop": true,
+"name": &"book2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cr7ti")
+}],
+"loop": true,
+"name": &"book3",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qeigl")
+}],
+"loop": true,
+"name": &"cup1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_exn7d")
+}],
+"loop": true,
+"name": &"cup2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ydvu0")
+}],
+"loop": true,
+"name": &"hanger",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q1gcx")
+}],
+"loop": true,
+"name": &"lamp",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bo7o0")
+}],
+"loop": true,
+"name": &"musicplayer",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h0cyr")
+}],
+"loop": true,
+"name": &"saucer",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2wtql")
+}],
+"loop": true,
+"name": &"telephone",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eweuh"]
+size = Vector2(11, 3)
+
+[node name="knockables" type="Node2D"]
+
+[node name="knockables" type="Area2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="knockables"]
+sprite_frames = SubResource("SpriteFrames_sh17j")
+animation = &"lamp"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="knockables"]
+position = Vector2(0, 1.5)
+shape = SubResource("RectangleShape2D_eweuh")
