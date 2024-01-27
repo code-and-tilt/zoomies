@@ -1,7 +1,11 @@
-[gd_scene load_steps=17 format=3 uid="uid://cm5hlm6ih18w3"]
+[gd_scene load_steps=17 format=3 uid="uid://uqb5u4ml5l56"]
 
 [ext_resource type="Script" path="res://Scripts/cat.gd" id="1_p2ljv"]
-[ext_resource type="Texture2D" uid="uid://do46wh632pl5c" path="res://Art/cats assets/orange_0.png" id="2_5yee6"]
+[ext_resource type="Texture2D" uid="uid://c7qgnjgq3m6up" path="res://Art/cats assets/orange_0.png" id="2_5yee6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2rxye"]
+atlas = ExtResource("2_5yee6")
+region = Rect2(256, 480, 32, 30)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_p3lpi"]
 atlas = ExtResource("2_5yee6")
@@ -47,12 +51,16 @@ region = Rect2(704, 510, 32, 30)
 atlas = ExtResource("2_5yee6")
 region = Rect2(736, 510, 32, 30)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_2rxye"]
-atlas = ExtResource("2_5yee6")
-region = Rect2(256, 480, 32, 30)
-
 [sub_resource type="SpriteFrames" id="SpriteFrames_bstvv"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2rxye")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_p3lpi")
@@ -90,14 +98,6 @@ animations = [{
 "loop": true,
 "name": &"run",
 "speed": 50.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_2rxye")
-}],
-"loop": true,
-"name": &"sit",
-"speed": 5.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fago4"]
@@ -115,8 +115,12 @@ position = Vector2(94, 57)
 scale = Vector2(6.875, 4.8)
 sprite_frames = SubResource("SpriteFrames_bstvv")
 animation = &"run"
-frame_progress = 0.934713
+frame_progress = 0.466586
+speed_scale = 5.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(74, 63)
 shape = SubResource("RectangleShape2D_fago4")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+limit_bottom = 700
