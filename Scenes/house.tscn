@@ -1,37 +1,32 @@
-[gd_scene load_steps=45 format=3 uid="uid://dcm84sg6ak35w"]
+[gd_scene load_steps=40 format=3 uid="uid://dcm84sg6ak35w"]
 
-[ext_resource type="Texture2D" uid="uid://bf4e0extpgu2y" path="res://Art/Sprites/TileSheet-Sheet.png" id="1_8jip4"]
+[ext_resource type="Texture2D" uid="uid://cmjdg3be3dipu" path="res://Art/Sprites/TileSheet-Sheet.png" id="1_8jip4"]
 [ext_resource type="Script" path="res://camera.gd" id="1_gbilx"]
-[ext_resource type="Texture2D" uid="uid://b207dva4wyics" path="res://Art/Furniture Pack/Top View Assets/Chair3_TopSide.PNG" id="2_n1yxu"]
-[ext_resource type="Texture2D" uid="uid://btfehjb0mx4qc" path="res://Art/Furniture Pack/Top View Assets/Bed_TopSide.PNG" id="3_v63pr"]
-[ext_resource type="Texture2D" uid="uid://cwidreprfxuw0" path="res://Art/Furniture Pack/Top View Assets/Couch6_TopFront.PNG" id="5_bqbup"]
-[ext_resource type="Texture2D" uid="uid://dru8rvsyowia5" path="res://Art/Furniture Pack/Top View Assets/CoffeeTable2_TopFront.PNG" id="6_ybkqx"]
-[ext_resource type="Texture2D" uid="uid://bl8ad4hiu23b8" path="res://Art/Furniture Pack/Top View Assets/TVStand3_TopFront.PNG" id="7_l1n8e"]
-[ext_resource type="Texture2D" uid="uid://ccvwv4mjdnm5i" path="res://Art/Furniture Pack/Top View Assets/Bench3_TopSide.PNG" id="8_bvx1p"]
-[ext_resource type="Texture2D" uid="uid://1u5hvufpouxp" path="res://Art/Furniture Pack/Top View Assets/Bench3_TopFront.PNG" id="9_qwnk3"]
-[ext_resource type="Texture2D" uid="uid://bbnnwq82ak7y2" path="res://Art/Furniture Pack/Top View Assets/BarrelTable_TopSide.PNG" id="10_uf5wk"]
-[ext_resource type="Texture2D" uid="uid://c8j2qovqvsyjv" path="res://Art/Furniture Pack/Top View Assets/Desk3_TopFront.PNG" id="11_k541k"]
-[ext_resource type="Texture2D" uid="uid://cgb85pe0wyi0a" path="res://Art/Furniture Pack/Top View Assets/Shelf2_TopFront.PNG" id="12_6smwo"]
-[ext_resource type="Texture2D" uid="uid://cuq0vv3o7ko4h" path="res://Art/Furniture Pack/Top View Assets/EntertainmentCenterWood2_TopFront.PNG" id="13_4tr4m"]
-[ext_resource type="Texture2D" uid="uid://ldwbb72thg6h" path="res://Art/Furniture Pack/Top View Assets/KitchenCounter.PNG" id="14_idr1j"]
-[ext_resource type="Texture2D" uid="uid://jidptkqttd6h" path="res://Art/Furniture Pack/Top View Assets/Fridge.PNG" id="15_q6yit"]
-[ext_resource type="Texture2D" uid="uid://c5ns4syluexn4" path="res://Art/Furniture Pack/Top View Assets/WashingMachine.PNG" id="16_hxh4n"]
-[ext_resource type="Texture2D" uid="uid://dm1eutkwfmf2x" path="res://Art/Furniture Pack/Top View Assets/DecorTable1_TopFront.PNG" id="17_npae7"]
-[ext_resource type="Texture2D" uid="uid://btihlusluypei" path="res://Art/Furniture Pack/Top View Assets/Chair4_TopSideAngle.PNG" id="18_4n2ty"]
-[ext_resource type="Texture2D" uid="uid://clhv5fq7g6g4o" path="res://Art/Furniture Pack/Top View Assets/CoffeeTable1_TopFront.PNG" id="19_0tl8t"]
-[ext_resource type="Texture2D" uid="uid://cafgvw4lgrdj0" path="res://Art/Furniture Pack/Top View Assets/Shelf1_TopFront.PNG" id="20_8wok7"]
-[ext_resource type="Texture2D" uid="uid://cxi13sxld0nki" path="res://Art/Furniture Pack/Top View Assets/CoffeeTable3_TopSideAngle.PNG" id="21_mhwc6"]
-[ext_resource type="Texture2D" uid="uid://bwbtw7i3ynegg" path="res://Art/Furniture Pack/Top View Assets/Couch3_TopSideAngle.PNG" id="22_3f0io"]
-[ext_resource type="Texture2D" uid="uid://do0duamw84kvq" path="res://Art/Furniture Pack/Top View Assets/Table1_TopSide.PNG" id="23_tlw7h"]
-[ext_resource type="Texture2D" uid="uid://bvx2fwjm2jpsg" path="res://Art/Furniture Pack/Top View Assets/Chair_TopFront.PNG" id="24_sb6w2"]
-[ext_resource type="Texture2D" uid="uid://bggokndcdl1r7" path="res://Art/Furniture Pack/Top View Assets/Chair_TopSide.PNG" id="25_rey8x"]
-[ext_resource type="Texture2D" uid="uid://ipdkkeanvrta" path="res://Art/Furniture Pack/Top View Assets/Shelf3_TopSide.PNG" id="26_u8avw"]
-[ext_resource type="Texture2D" uid="uid://llxmfo2cqfb" path="res://Art/Furniture Pack/Top View Assets/Bench2_TopSide.PNG" id="27_1ojy4"]
-[ext_resource type="Texture2D" uid="uid://bqe8vw5c3hx42" path="res://Art/Furniture Pack/Top View Assets/Couch4_TopSide.PNG" id="28_ptb7n"]
-[ext_resource type="Texture2D" uid="uid://daxvaukxp4qej" path="res://Art/Furniture Pack/Top View Assets/ToiletBowl.PNG" id="29_ppx3i"]
-[ext_resource type="Texture2D" uid="uid://duaqq5v4kvqg1" path="res://Art/Furniture Pack/Top View Assets/Sink.PNG" id="30_gt08d"]
-[ext_resource type="Texture2D" uid="uid://jg4enapnqjww" path="res://Art/Furniture Pack/Top View Assets/TVStand1_TopSide.PNG" id="31_ir3yr"]
-[ext_resource type="PackedScene" uid="uid://uqb5u4ml5l56" path="res://Scenes/cat.tscn" id="31_k8iu7"]
+[ext_resource type="Texture2D" uid="uid://cwhq521xy1nfx" path="res://Art/Furniture Pack/Top View Assets/Chair3_TopSide.PNG" id="2_n1yxu"]
+[ext_resource type="Texture2D" uid="uid://duv4haptq420d" path="res://Art/Furniture Pack/Top View Assets/Bed_TopSide.PNG" id="3_v63pr"]
+[ext_resource type="Texture2D" uid="uid://rrxof22eeth0" path="res://Art/Furniture Pack/Top View Assets/Couch6_TopFront.PNG" id="5_bqbup"]
+[ext_resource type="Texture2D" uid="uid://bk0rf8ij1n043" path="res://Art/Furniture Pack/Top View Assets/CoffeeTable2_TopFront.PNG" id="6_ybkqx"]
+[ext_resource type="Texture2D" uid="uid://7kahpp565p7l" path="res://Art/Furniture Pack/Top View Assets/TVStand3_TopFront.PNG" id="7_l1n8e"]
+[ext_resource type="Texture2D" uid="uid://bod40xxyr1b23" path="res://Art/Furniture Pack/Top View Assets/Bench3_TopSide.PNG" id="8_bvx1p"]
+[ext_resource type="Texture2D" uid="uid://b4dwhyoseg8ac" path="res://Art/Furniture Pack/Top View Assets/Bench3_TopFront.PNG" id="9_qwnk3"]
+[ext_resource type="Texture2D" uid="uid://7nm233pkjelm" path="res://Art/Furniture Pack/Top View Assets/BarrelTable_TopSide.PNG" id="10_uf5wk"]
+[ext_resource type="Texture2D" uid="uid://cupccbqhm4fm4" path="res://Art/Furniture Pack/Top View Assets/Desk3_TopFront.PNG" id="11_k541k"]
+[ext_resource type="Texture2D" uid="uid://xgphc0wb7hp1" path="res://Art/Furniture Pack/Top View Assets/Shelf2_TopFront.PNG" id="12_6smwo"]
+[ext_resource type="Texture2D" uid="uid://g3oktmikw7v" path="res://Art/Furniture Pack/Top View Assets/EntertainmentCenterWood2_TopFront.PNG" id="13_4tr4m"]
+[ext_resource type="Texture2D" uid="uid://dv8563o383amc" path="res://Art/Furniture Pack/Top View Assets/DecorTable1_TopFront.PNG" id="17_npae7"]
+[ext_resource type="Texture2D" uid="uid://c8yhqc5qecr70" path="res://Art/Furniture Pack/Top View Assets/Chair4_TopSideAngle.PNG" id="18_4n2ty"]
+[ext_resource type="Texture2D" uid="uid://bl3et7i1xrm81" path="res://Art/Furniture Pack/Top View Assets/CoffeeTable1_TopFront.PNG" id="19_0tl8t"]
+[ext_resource type="Texture2D" uid="uid://e8wvlmrxm3ul" path="res://Art/Furniture Pack/Top View Assets/Shelf1_TopFront.PNG" id="20_8wok7"]
+[ext_resource type="Texture2D" uid="uid://cs6vgkxehinab" path="res://Art/Furniture Pack/Top View Assets/CoffeeTable3_TopSideAngle.PNG" id="21_mhwc6"]
+[ext_resource type="Texture2D" uid="uid://d0imylmonu8x0" path="res://Art/Furniture Pack/Top View Assets/Couch3_TopSideAngle.PNG" id="22_3f0io"]
+[ext_resource type="Texture2D" uid="uid://d25moswxv0g1p" path="res://Art/Furniture Pack/Top View Assets/Table1_TopSide.PNG" id="23_tlw7h"]
+[ext_resource type="Texture2D" uid="uid://bfk0b2nhm6piq" path="res://Art/Furniture Pack/Top View Assets/Chair_TopFront.PNG" id="24_sb6w2"]
+[ext_resource type="Texture2D" uid="uid://buotmqquq8d8d" path="res://Art/Furniture Pack/Top View Assets/Chair_TopSide.PNG" id="25_rey8x"]
+[ext_resource type="Texture2D" uid="uid://cs4sbemlfdrla" path="res://Art/Furniture Pack/Top View Assets/Shelf3_TopSide.PNG" id="26_u8avw"]
+[ext_resource type="Texture2D" uid="uid://busa77v7itp6l" path="res://Art/Furniture Pack/Top View Assets/Bench2_TopSide.PNG" id="27_1ojy4"]
+[ext_resource type="Texture2D" uid="uid://bbvdkn0crk20p" path="res://Art/Furniture Pack/Top View Assets/Couch4_TopSide.PNG" id="28_ptb7n"]
+[ext_resource type="Texture2D" uid="uid://18xmbnxrak7n" path="res://Art/Furniture Pack/Top View Assets/TVStand1_TopSide.PNG" id="31_ir3yr"]
+[ext_resource type="PackedScene" uid="uid://cm5hlm6ih18w3" path="res://Scenes/cat.tscn" id="31_k8iu7"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2fvec"]
 texture = ExtResource("1_8jip4")
@@ -54,9 +49,11 @@ texture = ExtResource("1_8jip4")
 4:0/0 = 0
 4:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 4:0/0/physics_layer_0/angular_velocity = 0.0
+4:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, -2.11588, -8, -2.11588, 8, -8, 8)
 5:0/0 = 0
 5:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 5:0/0/physics_layer_0/angular_velocity = 0.0
+5:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(2.00452, -8, 8, -8, 8, 8, 2.11588, 8)
 6:0/0 = 0
 6:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 6:0/0/physics_layer_0/angular_velocity = 0.0
@@ -130,9 +127,11 @@ texture = ExtResource("1_8jip4")
 4:1/0 = 0
 4:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 4:1/0/physics_layer_0/angular_velocity = 0.0
+4:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, -1.89316, -8, -1.89316, 8, -8, 8)
 5:1/0 = 0
 5:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 5:1/0/physics_layer_0/angular_velocity = 0.0
+5:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(2.11588, -8, 8, -8, 8, 8, 2.00452, 8)
 6:1/0 = 0
 6:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 6:1/0/physics_layer_0/angular_velocity = 0.0
@@ -190,7 +189,7 @@ texture = ExtResource("1_8jip4")
 0:2/0 = 0
 0:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:2/0/physics_layer_0/angular_velocity = 0.0
-0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.0113, 8, -8, 8, -8, -8, -5.0113, -8)
 1:2/0 = 0
 1:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 1:2/0/physics_layer_0/angular_velocity = 0.0
@@ -251,7 +250,7 @@ texture = ExtResource("1_8jip4")
 0:3/0 = 0
 0:3/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:3/0/physics_layer_0/angular_velocity = 0.0
-0:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.0113, 8, -8, 8, -8, -8, -5.0113, -8)
 1:3/0 = 0
 1:3/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 1:3/0/physics_layer_0/angular_velocity = 0.0
@@ -312,7 +311,7 @@ texture = ExtResource("1_8jip4")
 0:4/0 = 0
 0:4/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:4/0/physics_layer_0/angular_velocity = 0.0
-0:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.0113, 8, -8, 8, -8, -8, -5.0113, -8)
 1:4/0 = 0
 1:4/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 1:4/0/physics_layer_0/angular_velocity = 0.0
@@ -334,7 +333,7 @@ texture = ExtResource("1_8jip4")
 7:4/0 = 0
 7:4/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 7:4/0/physics_layer_0/angular_velocity = 0.0
-7:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+7:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(5.12267, -8, 8, -8, 8, 8, 5.12267, 8)
 8:4/0 = 0
 8:4/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 8:4/0/physics_layer_0/angular_velocity = 0.0
@@ -356,7 +355,7 @@ texture = ExtResource("1_8jip4")
 14:4/0 = 0
 14:4/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 14:4/0/physics_layer_0/angular_velocity = 0.0
-14:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+14:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.0113, 8, -8, 8, -8, -8, -4.89994, -8)
 15:4/0 = 0
 15:4/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 15:4/0/physics_layer_0/angular_velocity = 0.0
@@ -375,35 +374,35 @@ texture = ExtResource("1_8jip4")
 0:5/0 = 0
 0:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:5/0/physics_layer_0/angular_velocity = 0.0
-0:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, 1.00226, 8, 8, -8, 8, -8, -8, -5.0113, -8, -4.89994, 0.890899)
 1:5/0 = 0
 1:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 1:5/0/physics_layer_0/angular_velocity = 0.0
-1:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, 1.00226, 8, 8, -8, 8, -8, 1.00226)
 2:5/0 = 0
 2:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 2:5/0/physics_layer_0/angular_velocity = 0.0
-2:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, 8, -8, 8, -8, 1.11362, 8, 1.00226)
 3:5/0 = 0
 3:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 3:5/0/physics_layer_0/angular_velocity = 0.0
-3:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, 1.00226, 8, 8, -8, 8, -8, 1.00226)
 4:5/0 = 0
 4:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 4:5/0/physics_layer_0/angular_velocity = 0.0
-4:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, 1.00226, 8, 8, -8, 8, -8, 1.00226)
 5:5/0 = 0
 5:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 5:5/0/physics_layer_0/angular_velocity = 0.0
-5:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, 1.00226, 8, 8, -8, 8, -8, 1.00226)
 6:5/0 = 0
 6:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 6:5/0/physics_layer_0/angular_velocity = 0.0
-6:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+6:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, 1.00226, 8, 8, -8, 8, -8, 1.00226)
 7:5/0 = 0
 7:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 7:5/0/physics_layer_0/angular_velocity = 0.0
-7:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+7:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(5.12267, -8, 8, -8, 8, 8, -8, 8, -8, 1.00226, 5.0113, 1.11362)
 8:5/0 = 0
 8:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 8:5/0/physics_layer_0/angular_velocity = 0.0
@@ -413,11 +412,11 @@ texture = ExtResource("1_8jip4")
 10:5/0 = 0
 10:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 10:5/0/physics_layer_0/angular_velocity = 0.0
-10:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+10:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, 8, -8, 8, -8, 1.11362, 8, 1.00226)
 11:5/0 = 0
 11:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 11:5/0/physics_layer_0/angular_velocity = 0.0
-11:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+11:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, 8, -8, 8, -8, 1.11362, 8, 1.00226)
 12:5/0 = 0
 12:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 12:5/0/physics_layer_0/angular_velocity = 0.0
@@ -427,7 +426,7 @@ texture = ExtResource("1_8jip4")
 14:5/0 = 0
 14:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 14:5/0/physics_layer_0/angular_velocity = 0.0
-14:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+14:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.0113, 8, -8, 8, -8, -8, -4.89994, -8)
 15:5/0 = 0
 15:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 15:5/0/physics_layer_0/angular_velocity = 0.0
@@ -1323,20 +1322,17 @@ texture = ExtResource("12_6smwo")
 position = Vector2(383, 119.298)
 rotation = 1.5708
 scale = Vector2(0.177194, 0.25)
-texture = ExtResource("14_idr1j")
 
 [node name="Kitchen_Counter2" type="Sprite2D" parent="Scene"]
 position = Vector2(466.488, 64.3102)
 rotation = 3.14159
 scale = Vector2(0.197037, 0.212299)
-texture = ExtResource("14_idr1j")
 
 [node name="Kitchen_Fridge" type="StaticBody2D" parent="Scene"]
 
 [node name="Sprite2D" type="Sprite2D" parent="Scene/Kitchen_Fridge"]
 position = Vector2(294.25, 118.6)
 scale = Vector2(0.0695122, 0.0237569)
-texture = ExtResource("15_q6yit")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Scene/Kitchen_Fridge"]
 position = Vector2(294, 119)
@@ -1395,7 +1391,6 @@ texture = ExtResource("10_uf5wk")
 [node name="Sprite2D" type="Sprite2D" parent="Scene/Laundry_WashingMachine"]
 position = Vector2(436, -102)
 scale = Vector2(0.0846154, 0.0563175)
-texture = ExtResource("16_hxh4n")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Scene/Laundry_WashingMachine"]
 position = Vector2(436, -102)
@@ -1559,7 +1554,6 @@ shape = SubResource("RectangleShape2D_sratt")
 position = Vector2(221, -40)
 rotation = -1.5708
 scale = Vector2(0.0377403, 0.0406821)
-texture = ExtResource("29_ppx3i")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Scene/Toilet_Toilet"]
 position = Vector2(221, -40)
@@ -1569,7 +1563,6 @@ shape = SubResource("RectangleShape2D_kais5")
 position = Vector2(279, -63.1784)
 rotation = 1.5708
 scale = Vector2(0.113238, 0.0154975)
-texture = ExtResource("30_gt08d")
 
 [node name="cat" parent="." instance=ExtResource("31_k8iu7")]
 z_index = 1
