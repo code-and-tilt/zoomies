@@ -1,6 +1,7 @@
-[gd_scene load_steps=15 format=3 uid="uid://bk0kjp2067thg"]
+[gd_scene load_steps=16 format=3 uid="uid://bk0kjp2067thg"]
 
-[ext_resource type="Texture2D" uid="uid://bhisqsiejm4b4" path="res://Art/PI Office ASSET/furniture update.png" id="1_basee"]
+[ext_resource type="Texture2D" uid="uid://bmduhd4yhv4f8" path="res://Art/PI Office ASSET/furniture update.png" id="1_basee"]
+[ext_resource type="Script" path="res://Scripts/knockables.gd" id="1_wltyb"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nhvar"]
 atlas = ExtResource("1_basee")
@@ -138,16 +139,19 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_eweuh"]
-size = Vector2(11, 3)
+size = Vector2(9, 8)
 
-[node name="knockables" type="Node2D"]
+[node name="Knockables" type="Area2D"]
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_wltyb")
 
-[node name="knockables" type="Area2D" parent="."]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="knockables"]
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_sh17j")
 animation = &"lamp"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="knockables"]
-position = Vector2(0, 1.5)
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(0, 4)
 shape = SubResource("RectangleShape2D_eweuh")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

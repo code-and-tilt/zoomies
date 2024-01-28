@@ -23,8 +23,7 @@ buses/default_bus_layout=""
 
 [autoload]
 
-GameManager="*res://Scripts/Managers/GameManager.gd"
-AudioManager="*res://Scripts/Managers/AudioManager.gd"
+GameManager="*res://Singleton/game_manager.gd"
 
 [display]
 
