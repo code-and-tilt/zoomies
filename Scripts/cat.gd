@@ -5,7 +5,7 @@ extends CharacterBody2D
 @onready var collision_shape_2d = $CollisionShape2D
 @onready var SPEED: float = 100
 
-#var GRAVITY: float = ProjectSettings.get("physics/2d/default_gravity")
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -19,12 +19,5 @@ func get_input():
 func _physics_process(delta):
 
 	get_input()
-	
-	#if Input.is_action_just_pressed("RunLeft"):
-		#SPEED = SPEED * 1.3
-	#
-	#if Input.is_action_just_pressed("RunRight"):
-		#SPEED = SPEED * 1.3
-
 	move_and_slide()
 	
