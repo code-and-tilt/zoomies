@@ -1,7 +1,7 @@
 [gd_scene load_steps=17 format=3 uid="uid://uqb5u4ml5l56"]
 
 [ext_resource type="Script" path="res://Scripts/cat.gd" id="1_p2ljv"]
-[ext_resource type="Texture2D" uid="uid://c7qgnjgq3m6up" path="res://Art/cats assets/orange_0.png" id="2_5yee6"]
+[ext_resource type="Texture2D" uid="uid://cubmb188l7njv" path="res://Art/cats assets/orange_0.png" id="2_5yee6"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2rxye"]
 atlas = ExtResource("2_5yee6")
@@ -105,6 +105,7 @@ size = Vector2(180, 96)
 
 [node name="cat" type="CharacterBody2D"]
 position = Vector2(32, 121)
+collision_layer = 2
 platform_floor_layers = 4294901762
 platform_wall_layers = 1
 script = ExtResource("1_p2ljv")
@@ -123,4 +124,5 @@ position = Vector2(74, 63)
 shape = SubResource("RectangleShape2D_fago4")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(4, 4)
 limit_bottom = 700
