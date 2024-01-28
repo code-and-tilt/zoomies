@@ -6,7 +6,7 @@ extends Node
 func _ready():
 	var start_pos: Array = get_tree().get_nodes_in_group("start_pos")
 	#var the_one = start_pos.pick_random()
-	cat.global_position = Vector2(185,2)
+	cat.global_position = Vector2(190,2)
 	enemy.global_position = Vector2(180,2)
 
 
