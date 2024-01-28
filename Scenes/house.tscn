@@ -1,7 +1,7 @@
-[gd_scene load_steps=40 format=3 uid="uid://dcm84sg6ak35w"]
+[gd_scene load_steps=41 format=3 uid="uid://dcm84sg6ak35w"]
 
 [ext_resource type="Texture2D" uid="uid://bf4e0extpgu2y" path="res://Art/Sprites/TileSheet-Sheet.png" id="1_8jip4"]
-[ext_resource type="Script" path="res://camera.gd" id="1_gbilx"]
+[ext_resource type="Script" path="res://Scripts/camera.gd" id="1_gbilx"]
 [ext_resource type="Texture2D" uid="uid://b207dva4wyics" path="res://Art/Furniture Pack/Top View Assets/Chair3_TopSide.PNG" id="2_n1yxu"]
 [ext_resource type="Texture2D" uid="uid://btfehjb0mx4qc" path="res://Art/Furniture Pack/Top View Assets/Bed_TopSide.PNG" id="3_v63pr"]
 [ext_resource type="Texture2D" uid="uid://cwidreprfxuw0" path="res://Art/Furniture Pack/Top View Assets/Couch6_TopFront.PNG" id="5_bqbup"]
@@ -24,6 +24,7 @@
 [ext_resource type="Texture2D" uid="uid://bggokndcdl1r7" path="res://Art/Furniture Pack/Top View Assets/Chair_TopSide.PNG" id="25_rey8x"]
 [ext_resource type="Texture2D" uid="uid://ipdkkeanvrta" path="res://Art/Furniture Pack/Top View Assets/Shelf3_TopSide.PNG" id="26_u8avw"]
 [ext_resource type="Texture2D" uid="uid://llxmfo2cqfb" path="res://Art/Furniture Pack/Top View Assets/Bench2_TopSide.PNG" id="27_1ojy4"]
+[ext_resource type="PackedScene" uid="uid://dttplpf646ipd" path="res://Scenes/enemy.tscn" id="28_d3lbg"]
 [ext_resource type="Texture2D" uid="uid://bqe8vw5c3hx42" path="res://Art/Furniture Pack/Top View Assets/Couch4_TopSide.PNG" id="28_ptb7n"]
 [ext_resource type="Texture2D" uid="uid://jg4enapnqjww" path="res://Art/Furniture Pack/Top View Assets/TVStand1_TopSide.PNG" id="31_ir3yr"]
 [ext_resource type="PackedScene" uid="uid://uqb5u4ml5l56" path="res://Scenes/cat.tscn" id="31_k8iu7"]
@@ -1573,3 +1574,7 @@ scale = Vector2(0.1, 0.1)
 zoom = Vector2(3, 3)
 limit_bottom = 700
 limit_smoothed = true
+
+[node name="Enemy" parent="." instance=ExtResource("28_d3lbg")]
+z_index = 2
+position = Vector2(29, 19)
